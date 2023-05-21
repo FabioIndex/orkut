@@ -1,7 +1,7 @@
 # orkut
 
 Endereço Pagina  
-# https://fabioindex.github.io/orkut/
+https://fabioindex.github.io/orkut/
 
 pagina na Vercel
-# https://orkut-lovat.vercel.app/
+https://orkut-lovat.vercel.app/
