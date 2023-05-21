@@ -1,73 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<title>AULA</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
 
-		<body bgcolor=#363636>
-			<style>
-				#titulo{
-					font-size: 65px;
-					color: rgb(201, 218, 235);
-				}
-				#titulo4{
-					font-size: 30px;
-					color: rgb(69, 114, 160);
-				}
-				#titulo2{
-					font-size: 26px;
-				}
-				#titulo3{
-					font-size: 24px;
-					color: rgb(121, 98, 98);
-				}
-				h1, p{
-					color: white;
-				}
-			#logo{
-				position:absolute;
-				width: 120px;
-				height: 110px ;
-				top: 60px;
-				left: 120px;
-				border-radius: 30px;
-			}
+<head>
+	<meta charset="UTF-8">
+	<title>AULA</title>
+	<link rel="stylesheet" href="style.css">
+</head>
 
+<body bgcolor=#363636>
+	<style>
+		#titulo {
+			font-size: 65px;
+			color: rgb(201, 218, 235);
+		}
 
-			</style>
-			<div>
+		#titulo4 {
+			font-size: 30px;
+			color: rgb(69, 114, 160);
+		}
 
-				<img src="GUIMA.png" id="logo" sizes=10>
-				<center><i><h1 id="titulo"> Trabalho </h1> 
-			</div>
-					<h1 id="titulo4"> Front end 2D / orkut</h1> 
-					<p id="titulo2">Faça uma pagina html, Estilize com um arquivo css separado... 
-						Faça como seu perfil do <em>orkut.</em> <br> Coloque fotos relevantes na parte de comunidades/depoimentos e seja criativo... </p>
-						<p id="titulo3"> MAS LEMBRE-SE, SEM FOTOS VULGARES, NEM PALAVRAS PEJORATIVAS NÃO É PIADA E NÃO QUERO CÓPIAS...
-							<br> <em>SEU TRABALHO PODERÁ SER MOSTRADO AOS SEUS PAIS.<em> 
-				</p> 
+		#titulo2 {
+			font-size: 26px;
+		}
+
+		#titulo3 {
+			font-size: 24px;
+			color: rgb(121, 98, 98);
+		}
+
+		h1,
+		p {
+			color: white;
+		}
+
+		#logo {
+			position: absolute;
+			width: 120px;
+			height: 110px;
+			top: 60px;
+			left: 120px;
+			border-radius: 30px;
+		}
+		.cont1{
+			margin-top: 10px;
+
+		}
+	</style>
+	<div class="cont1">
+
+		<img src="GUIMA.png" id="logo" sizes=10>
+		<center><i>
+				<h1 id="titulo"> Trabalho </h1>
+	</div>
+	<div class="cont2">
+		<h1 id="titulo4"> Front end 2D / orkut</h1>
+		<p id="titulo2">Faça uma pagina html, Estilize com um arquivo css separado...
+			Faça como seu perfil do <em>orkut.</em> <br>
+			Coloque fotos relevantes na parte de comunidades/depoimentos e seja criativo... </p>
+			<p id="titulo3"> MAS LEMBRE-SE, SEM FOTOS VULGARES, NEM PALAVRAS PEJORATIVAS NÃO É PIADA E NÃO QUERO CÓPIAS...
+				<br> <em>SEU TRABALHO PODERÁ SER MOSTRADO AOS SEUS PAIS.<em>
+				</p>
 				<p id="titulo2">A Imagem de referencia esta abaixo... </p></i>
-			</center>	
-		<center><img src="https://s2.glbimg.com/gko70Q2nwU5ZwMQSQY5rKyVHvOE=/e.glbimg.com/og/ed/f/original/2015/09/11/orkut.png" alt="" srcset=""></center>
-		<Script>
-	var calculo;		
-	var num;
-	//num=prompt("digite o valor da refeição");
-	num = parseFloat(num);
-	calculo=(num*0.10);
-	//alert("valor dos 10% do garçom é " + calculo);
-	calculo=num+calculo;
-
+			</center>
+	</div>
 	
+	<center><img src="https://s2.glbimg.com/gko70Q2nwU5ZwMQSQY5rKyVHvOE=/e.glbimg.com/og/ed/f/original/2015/09/11/orkut.png">
+	</center>
+		
+	<Script>
+		var calculo;
+		var num;
+		//num=prompt("digite o valor da refeição");
+		num = parseFloat(num);
+		calculo = (num * 0.10);
+		//alert("valor dos 10% do garçom é " + calculo);
+		calculo = num + calculo;
+
+
 	//alert("Valor total da conta " + calculo);
 
 
-	 
-		</Script>
-		
-		
 
-	</body>
+	</Script>
+
+
+
+</body>
+
 </html>
