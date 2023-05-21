@@ -1,6 +1,6 @@
 # Projeto orkut ... Cria sua pagina Html utilizanado css para estilizar em arquivo separado...  
 
-![perfil-orkut](https://github.com/FabioIndex/orkut/assets/134175915/716adcfc-5a41-405b-b60c-2986bc7fb465)
+http://s2.glbimg.com/gko70Q2nwU5ZwMQSQY5rKyVHvOE=/e.glbimg.com/og/ed/f/original/2015/09/11/orkut.png
 
 ## Endereço Pagina  
 https://fabioindex.github.io/orkut/
